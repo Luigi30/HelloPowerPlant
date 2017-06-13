@@ -1,0 +1,1 @@
+#ifndef SHAPEHELPER_H#define SHAPEHELPER_H#pragma once#include <cmath>#include <cstdlib>#include ":3D:3DTypes.h"#define M_PI 3.14159265358979323846//Utility functions to help with shape drawing.class ShapeHelper {	public:		static Point FindCentroid(Rect r);		static Point RotatePointAroundOrigin(Point p, SInt16 degrees);};#endif

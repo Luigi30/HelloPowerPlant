@@ -1,0 +1,1 @@
+#ifndef QDWINDOW_H#define QDWINDOW_H#pragma once#include "QDPane.h"const ResIDT	rPPob_QDWindow			= 129;const PaneIDT	rPane_QDPane			= 10;//A window that holds a pane for QuickDraw output.class QDWindow : public LWindow {	QDPane *_qdPane;	public:	void SetQDPanePtr(QDPane *pane) { _qdPane = pane; }	QDPane *GetQDPanePtr() { return _qdPane; }};#endif

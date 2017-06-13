@@ -1,0 +1,1 @@
+#pragma once#include "3D:Vector3f.h"#define VIEWPORT_WIDTH 640#define VIEWPORT_HEIGHT 480#define Z_NEAR  1.0#define Z_FAR	50.0class Rasterizer {	public:	};
