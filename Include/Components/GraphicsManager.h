@@ -1,0 +1,1 @@
+#ifndef GRAPHICSMANAGER_H#define GRAPHICSMANAGER_H#include "PixMapDrawing.h"class GraphicsManager {	public:	virtual ~GraphicsManager() {}	virtual void Update(GameObject &gameObject, PixMapDrawing drawHelper);};#endif

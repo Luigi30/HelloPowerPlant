@@ -1,0 +1,1 @@
+#include "Render.h"#include "QDPane.h"void Renderer::DrawTriangle(QDPane *world, Triangle triangle){}

@@ -1,0 +1,1 @@
+#ifndef RENDER_H#define RENDER_H#include ":3D:3DTypes.h"#include "PixMapDrawing.h"class QDPane;class Renderer {	private:	PixMapDrawing drawHelper;		public:	Renderer() {		drawHelper = PixMapDrawing();	}		void DrawTriangle(QDPane *world, Triangle triangle);}#endif
