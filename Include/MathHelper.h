@@ -1,0 +1,1 @@
+#ifndef MATHHELPER_H#define MATHHELPER_Htemplate <typename T>T clamp(const T& n, const T& lower, const T& upper) {	return std::min(upper, std::max(n, lower));}#endif
